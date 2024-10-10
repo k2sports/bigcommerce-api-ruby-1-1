@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(File.expand_path('lib', __dir__))
 require 'bigcommerce/version'
 
 Gem::Specification.new do |s|
-  s.name = 'bigcommerce-api-ruby-1-1'
+  s.name = 'bigcommerce'
   s.version = Bigcommerce::VERSION
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 2.7.5'
